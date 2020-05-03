@@ -181,10 +181,11 @@ void x16rv3_test(void)
 
 int main(int argc, const char * argv[])
 {
-	uint32_t  hash32[8];
+	uint8_t  hash32[32];
 	char s[113] = "helloworldhelloworldhelloworldhelloworldhelloworldhelloworldhelloworldhelloworldhelloworldhelloworldhelloworldhel";
 	x16rv3_hash(hash32,s);
-	for(int j=0;j<8;j++)
+	printf("\n");
+	for(int j=0;j<32;j++)
     {
     	printf("%x",hash32[j]);
     }
