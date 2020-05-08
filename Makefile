@@ -18,6 +18,7 @@ SRCS += sph_simd.c
 SRCS += sph_skein.c
 SRCS += sph_whirlpool.c
 SRCS += x16rv3.c
+SRCS += x8r16.c
 
 
 SRCDIR = .
